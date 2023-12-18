@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using product_model.Data;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using product_model.Controllers;
+
 const string connection = "Data Source=OKAYOKAY;Database = Product_DB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +29,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapCategoryEndpoints();
 
 app.Run();
