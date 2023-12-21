@@ -1,7 +1,15 @@
+using basicModel.Data;
+using Microsoft.EntityFrameworkCore;
+
+const string sqlConnection = "Data Source=OKAYOKAY;Database = mvc_database;Integrated Security=True;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<appDb>(options => options.UseSqlServer(sqlConnection));
 
 var app = builder.Build();
 
