@@ -43,6 +43,7 @@ namespace basicModel.Controllers
             return View(product);
         }
 
+        [HttpGet]
         // GET: Products/Create
         public IActionResult Create()
         {

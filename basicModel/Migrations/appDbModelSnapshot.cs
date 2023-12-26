@@ -62,24 +62,42 @@ namespace basicModel.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateOnly>("EXP_date")
+                        .HasColumnType("date");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("brandId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly>("Sign_date")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Unit")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("brand")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("custom_ID")
+                        .HasColumnType("int");
 
                     b.Property<float>("price")
                         .HasColumnType("real");
 
-                    b.Property<Guid>("product_typeId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("product_type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("quantity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("brandId");
-
-                    b.HasIndex("product_typeId");
 
                     b.ToTable("products");
                 });
@@ -100,25 +118,6 @@ namespace basicModel.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("product_types");
-                });
-
-            modelBuilder.Entity("basicModel.Models.Product", b =>
-                {
-                    b.HasOne("basicModel.Models.Brand", "brand")
-                        .WithMany()
-                        .HasForeignKey("brandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("basicModel.Models.Product_Type", "product_type")
-                        .WithMany()
-                        .HasForeignKey("product_typeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("brand");
-
-                    b.Navigation("product_type");
                 });
 #pragma warning restore 612, 618
         }
