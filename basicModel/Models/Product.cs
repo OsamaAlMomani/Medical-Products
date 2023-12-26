@@ -3,7 +3,6 @@
     public class Product
     {
         public Guid Id { get; set; }
-        public int custom_ID {  get; set; }
 
         public string Name { get; set; }
         public string Description { get; set; }
@@ -14,6 +13,8 @@
 
 
         public int quantity { get; set; }
+
+
         public DateOnly Sign_date { get; set; }
         public DateOnly EXP_date { get; set; }
 
