@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="~/assets/vendor_assets/css/magnific-popup.css">
                                  
     <link rel="stylesheet" href="~/assets/vendor_assets/css/MarkerCluster.css">
-                                 
+
     <link rel="stylesheet" href="~/assets/vendor_assets/css/MarkerCluster.Default.css">
                                  
     <link rel="stylesheet" href="~/assets/vendor_assets/css/select2.min.css">
@@ -45,35 +45,35 @@
                                  
     <link rel="stylesheet" href="~/assets/vendor_assets/css/wickedpicker.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="~/style.css">
 
     <!-- endinject -->
 
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicon.png">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
 </head>
 
-<body class="layout-light side-menu">
+<body class="layout-dark side-menu">
     <div class="mobile-search">
         <form action="/" class="search-form">
-            <img src="img/svg/search.svg" alt="search" class="svg">
+            <img src="~/img/svg/search.svg" alt="search" class="svg">
             <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
         </form>
     </div>
     <div class="mobile-author-actions"></div>
     <header class="header-top">
-        <nav class="navbar navbar-light">
+        <nav class="navbar navbar-dark">
             <div class="navbar-left">
                 <div class="logo-area">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="dark" src="img/logo-dark.png" alt="logo">
-                        <img class="light" src="img/logo-white.png" alt="logo">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                        <img class="light" src="~/img/logo-dark.png" alt="logo">
+                        <img class="dark" src="~/img/logo-white.png" alt="logo">
                     </a>
                     <a href="#" class="sidebar-toggle">
-                        <img class="svg" src="img/svg/align-center-alt.svg" alt="img">
+                        <img class="svg" src="~/img/svg/align-center-alt.svg" alt="img">
                     </a>
                 </div>
 
@@ -91,10 +91,11 @@
                             <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
                         </form>
                     </li>
-                    <li class="nav-message">
+ 
+             @*    <li class="nav-message">
                         <div class="dropdown-custom">
                             <a href="javascript:;" class="nav-item-toggle icon-active">
-                                <img class="svg" src="img/svg/message.svg" alt="img">
+                                <img class="svg" src="~/img/svg/message.svg" alt="img">
                             </a>
                             <div class="dropdown-parent-wrapper">
                                 <div class="dropdown-wrapper">
@@ -102,7 +103,7 @@
                                     <ul>
                                         <li class="author-online has-new-message">
                                             <div class="user-avater">
-                                                <img src="img/team-1.png" alt="">
+                                                <img src="~/img/team-1.png" alt="">
                                             </div>
                                             <div class="user-message">
                                                 <p>
@@ -121,7 +122,7 @@
                                         </li>
                                         <li class="author-offline has-new-message">
                                             <div class="user-avater">
-                                                <img src="img/team-1.png" alt="">
+                                                <img src="~/img/team-1.png" alt="">
                                             </div>
                                             <div class="user-message">
                                                 <p>
@@ -140,7 +141,7 @@
                                         </li>
                                         <li class="author-online has-new-message">
                                             <div class="user-avater">
-                                                <img src="img/team-1.png" alt="">
+                                                <img src="~/img/team-1.png" alt="">
                                             </div>
                                             <div class="user-message">
                                                 <p>
@@ -159,7 +160,7 @@
                                         </li>
                                         <li class="author-offline">
                                             <div class="user-avater">
-                                                <img src="img/team-1.png" alt="">
+                                                <img src="~/img/team-1.png" alt="">
                                             </div>
                                             <div class="user-message">
                                                 <p>
@@ -177,7 +178,7 @@
                                         </li>
                                         <li class="author-offline">
                                             <div class="user-avater">
-                                                <img src="img/team-1.png" alt="">
+                                                <img src="~/img/team-1.png" alt="">
                                             </div>
                                             <div class="user-message">
                                                 <p>
@@ -203,7 +204,7 @@
                     <li class="nav-notification">
                         <div class="dropdown-custom">
                             <a href="javascript:;" class="nav-item-toggle icon-active">
-                                <img class="svg" src="img/svg/alarm.svg" alt="img">
+                                <img class="svg" src="~/img/svg/alarm.svg" alt="img">
                             </a>
                             <div class="dropdown-parent-wrapper">
                                 <div class="dropdown-wrapper">
@@ -211,7 +212,7 @@
                                     <ul>
                                         <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
                                             <div class="nav-notification__type nav-notification__type--primary">
-                                                <img class="svg" src="img/svg/inbox.svg" alt="inbox">
+                                                <img class="svg" src="~/img/svg/inbox.svg" alt="inbox">
                                             </div>
                                             <div class="nav-notification__details">
                                                 <p>
@@ -225,7 +226,7 @@
                                         </li>
                                         <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
                                             <div class="nav-notification__type nav-notification__type--secondary">
-                                                <img class="svg" src="img/svg/upload.svg" alt="upload">
+                                                <img class="svg" src="~/img/svg/upload.svg" alt="upload">
                                             </div>
                                             <div class="nav-notification__details">
                                                 <p>
@@ -239,7 +240,7 @@
                                         </li>
                                         <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
                                             <div class="nav-notification__type nav-notification__type--success">
-                                                <img class="svg" src="img/svg/log-in.svg" alt="log-in">
+                                                <img class="svg" src="~/img/svg/log-in.svg" alt="log-in">
                                             </div>
                                             <div class="nav-notification__details">
                                                 <p>
@@ -253,7 +254,7 @@
                                         </li>
                                         <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
                                             <div class="nav-notification__type nav-notification__type--info">
-                                                <img class="svg" src="img/svg/at-sign.svg" alt="at-sign">
+                                                <img class="svg" src="~/img/svg/at-sign.svg" alt="at-sign">
                                             </div>
                                             <div class="nav-notification__details">
                                                 <p>
@@ -267,7 +268,7 @@
                                         </li>
                                         <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
                                             <div class="nav-notification__type nav-notification__type--danger">
-                                                <img src="img/svg/heart.svg" alt="heart" class="svg">
+                                                <img src="~/img/svg/heart.svg" alt="heart" class="svg">
                                             </div>
                                             <div class="nav-notification__details">
                                                 <p>
@@ -289,13 +290,13 @@
                     <li class="nav-settings">
                         <div class="dropdown-custom">
                             <a href="javascript:;" class="nav-item-toggle">
-                                <img src="img/setting.png" alt="setting">
+                                <img src="~/img/setting.png" alt="setting">
                             </a>
                             <div class="dropdown-parent-wrapper">
                                 <div class="dropdown-wrapper dropdown-wrapper--large">
                                     <ul class="list-settings">
                                         <li class="d-flex">
-                                            <div class="me-3"><img src="img/mail.png" alt=""></div>
+                                            <div class="me-3"><img src="~/img/mail.png" alt=""></div>
                                             <div class="flex-grow-1">
                                                 <h6>
                                                     <a href="" class="stretched-link">All Features</a>
@@ -304,7 +305,7 @@
                                             </div>
                                         </li>
                                         <li class="d-flex">
-                                            <div class="me-3"><img src="img/color-palette.png" alt=""></div>
+                                            <div class="me-3"><img src="~/img/color-palette.png" alt=""></div>
                                             <div class="flex-grow-1">
                                                 <h6>
                                                     <a href="" class="stretched-link">Themes</a>
@@ -313,7 +314,7 @@
                                             </div>
                                         </li>
                                         <li class="d-flex">
-                                            <div class="me-3"><img src="img/home.png" alt=""></div>
+                                            <div class="me-3"><img src="~/img/home.png" alt=""></div>
                                             <div class="flex-grow-1">
                                                 <h6>
                                                     <a href="" class="stretched-link">Payments</a>
@@ -322,7 +323,7 @@
                                             </div>
                                         </li>
                                         <li class="d-flex">
-                                            <div class="me-3"><img src="img/video-camera.png" alt=""></div>
+                                            <div class="me-3"><img src="~/img/video-camera.png" alt=""></div>
                                             <div class="flex-grow-1">
                                                 <h6>
                                                     <a href="" class="stretched-link">Design Mockups</a>
@@ -331,7 +332,7 @@
                                             </div>
                                         </li>
                                         <li class="d-flex">
-                                            <div class="me-3"><img src="img/document.png" alt=""></div>
+                                            <div class="me-3"><img src="~/img/document.png" alt=""></div>
                                             <div class="flex-grow-1">
                                                 <h6>
                                                     <a href="" class="stretched-link">Content Planner</a>
@@ -340,7 +341,7 @@
                                             </div>
                                         </li>
                                         <li class="d-flex">
-                                            <div class="me-3"><img src="img/microphone.png" alt=""></div>
+                                            <div class="me-3"><img src="~/img/microphone.png" alt=""></div>
                                             <div class="flex-grow-1">
                                                 <h6>
                                                     <a href="" class="stretched-link">Diagram Maker</a>
@@ -356,14 +357,14 @@
                     <!-- ends: .nav-support -->
                     <li class="nav-flag-select">
                         <div class="dropdown-custom">
-                            <a href="javascript:;" class="nav-item-toggle"><img src="img/flag.png" alt="" class="rounded-circle"></a>
+                            <a href="javascript:;" class="nav-item-toggle"><img src="~/img/flag.png" alt="" class="rounded-circle"></a>
                             <div class="dropdown-parent-wrapper">
                                 <div class="dropdown-wrapper dropdown-wrapper--small">
-                                    <a href=""><img src="img/eng.png" alt=""> English</a>
-                                    <a href=""><img src="img/ger.png" alt=""> German</a>
-                                    <a href=""><img src="img/spa.png" alt=""> Spanish</a>
-                                    <a href=""><img src="img/tur.png" alt=""> Turkish</a>
-                                    <a href=""><img src="img/iraq.png" alt=""> Arabic</a>
+                                    <a href=""><img src="~/img/eng.png" alt=""> English</a>
+                                    <a href=""><img src="~/img/ger.png" alt=""> German</a>
+                                    <a href=""><img src="~/img/spa.png" alt=""> Spanish</a>
+                                    <a href=""><img src="~/img/tur.png" alt=""> Turkish</a>
+                                    <a href=""><img src="~/img/iraq.png" alt=""> Arabic</a>
                                 </div>
                             </div>
 
@@ -373,14 +374,14 @@
                     <li class="nav-author">
                         <div class="dropdown-custom">
                             <a href="javascript:;" class="nav-item-toggle">
-                                <img src="img/author-nav.jpg" alt="" class="rounded-circle">
+                                <img src="~/img/author-nav.jpg" alt="" class="rounded-circle">
                                 <span class="nav-item__title">Danial<i class="las la-angle-down nav-item__arrow"></i></span>
                             </a>
                             <div class="dropdown-parent-wrapper">
                                 <div class="dropdown-wrapper">
                                     <div class="nav-author__info">
                                         <div class="author-img">
-                                            <img src="img/author-nav.jpg" alt="" class="rounded-circle">
+                                            <img src="~/img/author-nav.jpg" alt="" class="rounded-circle">
                                         </div>
                                         <div>
                                             <h6>Rabbi Islam Rony</h6>
@@ -424,17 +425,19 @@
                                 <!-- ends: .dropdown-wrapper -->
                             </div>
                         </div>
-                    </li>
+                    </li> *@
+                    
+      
                     <!-- ends: .nav-author -->
                 </ul>
                 <!-- ends: .navbar-right__menu -->
                 <div class="navbar-right__mobileAction d-md-none">
                     <a href="#" class="btn-search">
-                        <img src="img/svg/search.svg" alt="search" class="svg feather-search">
-                        <img src="img/svg/x.svg" alt="x" class="svg feather-x">
+                        <img src="~/img/svg/search.svg" alt="search" class="svg feather-search">
+                        <img src="~/img/svg/x.svg" alt="x" class="svg feather-x">
                     </a>
                     <a href="#" class="btn-author-action">
-                        <img class="svg" src="img/svg/more-vertical.svg" alt="more-vertical">
+                        <img class="svg" src="~/img/svg/more-vertical.svg" alt="more-vertical">
                     </a>
                 </div>
             </div>
@@ -470,7 +473,7 @@
                             </a>
                             <ul>
                                 <li class="l_sidebar">
-                                    <a href="#" data-layout="light">Show All</a>
+                                    <a href="#" data-layout="dark">Show All</a>
                                 </li>
                                 <li class="l_sidebar">
                                     <a href="#" data-layout="dark">Add New Invoice</a>
