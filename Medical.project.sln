@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basicModel", "basicModel\basicModel.csproj", "{51BCF060-B30E-476D-8B34-FCFBE5B84930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basicModel", "basicModel\basicModel.csproj", "{51BCF060-B30E-476D-8B34-FCFBE5B84930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Temaplate\Template.csproj", "{5AFC755F-0645-4F11-8CDD-91B081831719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{51BCF060-B30E-476D-8B34-FCFBE5B84930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51BCF060-B30E-476D-8B34-FCFBE5B84930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51BCF060-B30E-476D-8B34-FCFBE5B84930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFC755F-0645-4F11-8CDD-91B081831719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFC755F-0645-4F11-8CDD-91B081831719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFC755F-0645-4F11-8CDD-91B081831719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFC755F-0645-4F11-8CDD-91B081831719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C470220F-5DAD-4BA4-BE36-5B8C74BB9941}
 	EndGlobalSection
 EndGlobal
