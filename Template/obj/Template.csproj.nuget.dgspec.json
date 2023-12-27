@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osama\\Project\\Medical-Products\\Temaplate\\Template.csproj": {}
+    "C:\\Users\\osama\\OneDrive\\Desktop\\Hebiz\\Medical-Products\\template\\Template.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osama\\Project\\Medical-Products\\Temaplate\\Template.csproj": {
+    "C:\\Users\\osama\\OneDrive\\Desktop\\Hebiz\\Medical-Products\\template\\Template.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osama\\Project\\Medical-Products\\Temaplate\\Template.csproj",
+        "projectUniqueName": "C:\\Users\\osama\\OneDrive\\Desktop\\Hebiz\\Medical-Products\\template\\Template.csproj",
         "projectName": "Template",
-        "projectPath": "C:\\Users\\osama\\Project\\Medical-Products\\Temaplate\\Template.csproj",
+        "projectPath": "C:\\Users\\osama\\OneDrive\\Desktop\\Hebiz\\Medical-Products\\template\\Template.csproj",
         "packagesPath": "C:\\Users\\osama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osama\\Project\\Medical-Products\\Temaplate\\obj\\",
+        "outputPath": "C:\\Users\\osama\\OneDrive\\Desktop\\Hebiz\\Medical-Products\\template\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xMLxKHiCx4Uok4ZWH2rjjG77z8ONhJe0q+K6CjV3qvzBsGcISON/QaSz1konSQTvpk4H/Us9W1nPe/WmUCiUBg==",
+  "dgSpecHash": "7pyskOpEvwYdYuFnohpdauOe6kMYR4A7dinNOjvZlb2FxKFknbr13kNwJ+b2bEQfs5B/rImL4Hc3eblCrcUkrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osama\\Project\\Medical-Products\\Temaplate\\Template.csproj",
+  "projectFilePath": "C:\\Users\\osama\\OneDrive\\Desktop\\Hebiz\\Medical-Products\\template\\Template.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osama\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\osama\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
