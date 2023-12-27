@@ -48,6 +48,7 @@ namespace Template.Controllers
         public IActionResult Create()
         {
             ViewData["CategoryName"] = new SelectList(_context.categories, "categoryId", "categoryName");
+            ViewData["BrandName"] = new SelectList(_context.brands, "brandId","brandName");
             return View();
         }
 
@@ -56,7 +57,7 @@ namespace Template.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Unit,Description,Notes,quantity,Sign_date,EXP_date,price")] Product product)
+        public async Task<IActionResult> Create([Bind("Id,Name,category,brand,Unit,Description,Notes,quantity,Sign_date,EXP_date,price")] Product product)
         {
             if (ModelState.IsValid)
             {
